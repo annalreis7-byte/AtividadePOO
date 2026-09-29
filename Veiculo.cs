@@ -11,7 +11,7 @@ public abstract class Veiculo
 
     public int Ano { get; private set; }
     // Faltou o Private set
-    public string Modelo { get; }
+    public string Modelo { get; private set; }
 
     public void Ligar()
     {
